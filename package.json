@@ -1,0 +1,17 @@
+{
+  "name": "mountebankcypress",
+  "version": "1.0.0",
+  "description": "Prueba testcontainer y mountebank",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Kevin Caicedo",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.8.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "testcontainers": "^10.8.2"
+  }
+}
